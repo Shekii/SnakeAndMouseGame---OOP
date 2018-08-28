@@ -1,0 +1,38 @@
+// constants.h: list of constants used in the system 
+//////////////////////////////////////////////////////////////////////
+//---------------------------------------------------------------------
+// Date       Programmer    Amendments made and justification (if needed)
+//---------------------------------------------------------------------
+// 12/12/2016
+//Luke Paoloni , Jake Ward, Harry Walker, Shezan Sharif
+//---------------------------------------------------------------------
+#if !defined(constantsH)
+#define constantsH 
+
+//--------define constants
+//________________________________________________
+//define constants
+
+//defining the size of the grid
+#define SIZE      (20)	//grid dimension
+
+//defining symbols used for display of the grid and grid items
+#define SNAKEHEAD ('S')	//snake symbol
+#define TAIL	  ('T') //snake tail symbol
+#define MOUSE     ('M')	//mouse symbol
+#define HOLE      ('H')	//hole symbol
+#define NUT       ('N')	//nut symbol
+#define FREECELL  ('.')	//empty cell on grid
+#define CHEAT	  ('C');
+
+//defining the command letters to move the mouse on the maze
+#define UP        (72)	//up arrow
+#define DOWN      (80)	//down arrow
+#define RIGHT     (77)	//right arrow
+#define LEFT      (75)	//left arrow
+
+//defining the other command letters
+#define QUIT      ('Q')	//to end game
+#define UNDO	  ('U') //to undo a move
+
+#endif // !defined(constantsH)
